@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #000;
+  background: none;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 500px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+thead button {
+  margin-bottom: 10px;
+}
+
+tbody tr td button {
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
